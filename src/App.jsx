@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import CustomizationPanel from "./components/CustomizationPanel";
-import ChatBot from "./components/ChatBot";
+import CustomizationPanel from "./Components/CustomizationPanel.jsx";
+import ChatBot from "./Components/ChatBot.jsx";
 
 const App = () => {
   const [customizations, setCustomizations] = useState({
